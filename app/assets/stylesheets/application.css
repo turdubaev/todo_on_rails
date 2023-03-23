@@ -1,0 +1,13 @@
+.new_task_container {
+    display: flex;
+}
+
+#task_description {
+    width: 300px;
+    margin: 0 20px 20px 0px;
+}
+
+.show_btns {
+    display: flex;
+    justify-content: space-evenly;
+}

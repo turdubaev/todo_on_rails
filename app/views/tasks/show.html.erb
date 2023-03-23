@@ -1,0 +1,9 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @task %>
+
+<div class='show_btns'>
+  <%= link_to "Edit this task", edit_task_path(@task), class:"btn btn-warning" %>
+  <%= link_to "Back to tasks", tasks_path, class:"btn btn-secondary" %>
+  <%= button_to "Destroy this task", @task, method: :delete, class:"btn btn-danger" %>
+</div>
