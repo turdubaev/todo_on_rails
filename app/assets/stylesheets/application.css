@@ -11,3 +11,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.footer {
+    display: block;
+    text-align: center;
+}
